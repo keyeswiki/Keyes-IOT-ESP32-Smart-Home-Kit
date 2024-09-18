@@ -4,7 +4,7 @@ Servo myservo;
 
 void setup() {
   myservo.attach(servoPin,500,2400);
-  myservo.write(100);
+  myservo.write(0);
 }
 
 void loop() {

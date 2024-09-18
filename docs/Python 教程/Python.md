@@ -2429,6 +2429,7 @@ except:
 
 ![](media/82bf2fdb6ff05987f82eda0b59d96122.png)
 
-单击![](media/da852227207616ccd9aff28f19e02690.png)“当前运行脚本”，代码开始执行，外接电源供电，你会看到的现象是：如果成功连接上WiFi，Shell窗口中会打印出连接到WiFi的名称和分配到的IP地址。按“Ctrl+C”或点单击![](media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“停止/启动后端进程”退出程序。
+单击![](media/da852227207616ccd9aff28f19e02690.png)“当前运行脚本”，代码开始执行，外接电源供电，你会看到的现象是：Shell窗口中会打印出连接到WiFi的名称，如果成功连接上WiFi，会打印出分配到的IP地址。按“Ctrl+C”或点单击![](media/27451c8a9c13e29d02bc0f5831cfaf1f.png)“停止/启动后端进程”退出程序。
+注意：只支持连接2.4GHz频段的WiFi，不支持连接5GHz频段的WiFi。
 
 ![](media/7cbc621d56126b70ae625197fbe14a18.png)
