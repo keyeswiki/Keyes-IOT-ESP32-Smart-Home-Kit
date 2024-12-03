@@ -360,7 +360,7 @@ microPython官方网站：<http://micropython.org/>
 安装7
 安装所需零件
 
-![](media/03f4d554e449f994c5d2fcceebdbbfc6.png)
+![](media/99_1.png)
 
 安装前需要调节舵机角度需要将窗户的舵机调整到0度再安装资料提供了调整窗户舵机的代码，请打开并烧录到主板，如下图
 
@@ -368,11 +368,15 @@ microPython官方网站：<http://micropython.org/>
 
 安装（需按照右图姿态安装）
 
-![](media/d7b21837c6de09b2269eceb67fa6b498.png)
+![](media/99_2.png)
+
+若使用为M1.4*6MM自攻螺丝时，如下图
+
+![](media/100.png)
 
 完成
 
-![](media/28699ce9d170e22f11be4b735b82b708.png)
+![](media/99_3.png)
 
 安装8
 安装所需零件
