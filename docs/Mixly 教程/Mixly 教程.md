@@ -1572,29 +1572,7 @@ Station
 
 1.2 APP下载：
 
-（1）Android APP：
-
-A. 我们资料包中有提供Android apk安装包，在下图位置：
-
-![](media/1602feccb0ee51b62efd3ba6244f8982.png)
-
-2.  使用手机浏览器中的扫描功能去扫二维码下载APP。
-
-![](media/049a27bbb2e7410c404f8a03aa9f0eef.png)
-
-也可以复制链接：<https://xiazai.keyesrobot.cn/APP/keyes%20IoT%20home.apk>到浏览器中下载。
-
-图标：
-
-![](media/ce17c63fa9d88b5981779202e4292b36.png)
-
-APP界面：
-
-![](media/fcb1414758ce8d42810f3e0c22e0d8fb.png)![](media/8e7c339852876017b41a39d5a0b31323.png)
-
-（2）iOS APP下载
-
-在APP Store中搜索keyes IoT home，进行下载就可以。
+[https://www.keyesrobot.cn/projects/KE3050/en/latest/docs/APP%E4%B8%8B%E8%BD%BD%E5%92%8C%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html](https://www.keyesrobot.cn/projects/KE3050/en/latest/docs/APP%E4%B8%8B%E8%BD%BD%E5%92%8C%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html)
 
 1.3 实验组件：
 
