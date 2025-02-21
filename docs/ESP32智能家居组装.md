@@ -408,31 +408,34 @@ time.sleep(1)
 
 ![](media/a097c2ed19ca090ac15b216f4ed126f9.png)
 
-![](media/172138b37793b0c11b43a1ea91209338.png)
+![Img](./media/img-20250221132325.png)
 
 风扇模块接线(IN+对应io19，IN-对应io18）使用的杜邦线：4根散开的杜邦线
 
 ![](media/564748f356a1505a10be98c9d83231f0.png)
 
-![](media/a8e8b108d9ed42489c25515472e16255.png)
+![Img](./media/img-20250221132405.png)
+
 
 将人体红外传感器接到io14接口
 
 ![](media/18528bd687745d288023d88a31931f11.png)
 
-![](media/9598c420f0f954f1506a873e139ce2d1.png)
+![Img](./media/img-20250221132429.png)
 
 将左边按键模块接到io16接口
 
 ![](media/4e2f43c0bd54b1370aa7defd9ccc0411.png)
 
-![](media/5c649a3cb244cea4d6a9f936abe0f0a8.png)
+![Img](./media/img-20250221132447.png)
+
 
 将右边按键模块接到io27接口
 
 ![](media/7103ee842492f58503b23203b22d9ecc.png)
 
-![](media/cb475e55d1fb1c8a2be61464eaf24ff5.png)
+![Img](./media/img-20250221132506.png)
+
 
 将RFID模块接到IIC接口
 
@@ -444,41 +447,47 @@ time.sleep(1)
 
 ![](media/25a5df6fc902c8d510249452daadab9d.png)
 
-![](media/cc9939c0a69dd7667848b792d7805176.png)
+![Img](./media/img-20250221132527.png)
+
 
 将6812RGB灯接到io26接口
 
 ![](media/73bdbe72c7dcd62ae8e33643b3427bea.png)
 
-![](media/292c59c0e33695a65deed4b350d7d621.png)
+![Img](./media/img-20250221132540.png)
+
 
 将气体传感器的白线接到io23接口，棕线不用接。
 
 ![](media/0c8102d71c577fc60476fed9fc435b07.png)
 
-![](media/86d6e0a2c05ac1d1b5f81dea4d801791.png)
+![Img](./media/img-20250221132558.png)
 
 将蜂鸣器接到io25接口
 
 ![](media/6f95574775292225daad0c1620f418b2.png)
 
-![](media/125850d85cf13b99ac2a9e885b1574ec.png)
+![Img](./media/img-20250221132610.png)
+
 
 将控制窗户的舵机接到io5接口
 
-![](media/3dce3c0b762bfdadbd6edd8e358398b1.png)
+![Img](./media/img-20250221132645.png)
 
-![](media/8b1aa52648e690aeb863f6d0cfbc6cec.png)
+
+![Img](./media/img-20250221132621.png)
+
 
 将控制门的舵机接到io13接口
 
 ![](media/b10b214bc34fa16056d8f26d97a9a3e9.png)
 
-![](media/781a42ff151724bc803f5011318b147b.png)
+![Img](./media/img-20250221132704.png)
 
 电源接线
 
-![](media/88f91a8871e3359631151a05e403ddae.jpg)
+![Img](./media/img-20250221130118.png)
+
 
 **安装20**
 
