@@ -252,7 +252,7 @@ F - 用于从板接收串行数据并将串行数据发送到板的串行监视
 
 ## 添加Arduino库文件 
 
-我们提供的Arduino 库文件是放在资料的(路径：) ..\Arduino 教程\2. Arduino 库文件文件夹中，如下图
+我们提供的Arduino 库文件是放在资料的(路径：) ..项目代码+驱动文件+库文件\库文件+固件\Arduino 库文件的文件夹中，如下图
 
 ![](media/d873b2ba8d845877b3201b77316d355d.png)
 
@@ -280,15 +280,6 @@ F - 用于从板接收串行数据并将串行数据发送到板的串行监视
 
 到此，完成库文件的添加。
 
-2\. 如果下载的是 Arduino IDE 2.0 版本，则 Arduino IDE 2.0 版本的库文件添加方式如下：
-
-（1）在Arduino IDE2.0版本界面点击“项目”→“包含库”→“添加.ZIP库...”。
-
-![](media/10e023bbc045d646faac20bf25b6ab23.png)
-
-（2）点击“打开”添加即可：（<span style="color: rgb(255, 76, 65);">注意：</span> 库文件需要压缩为 .ZIP格式；这里以“Adafruit_GFX_Library.ZIP”为演示，其他库文件的添加方法是一样的。）
-
-![](media/2fb6aa0d471a6c34ba1948384554f5ed.png)
 
 ### 2. MacOS系统的库文件添加方法 
 
@@ -451,7 +442,7 @@ PWM占空比越长，输出功率越高。既然我们了解了这种关系，�
 
 **1.6. 实验代码：** 
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32_AnalogWrite”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32_AnalogWrite”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -786,7 +777,7 @@ PWM比较多用于调节LED灯的亮度或者调节无源蜂鸣器的频率，�
 
 **1.6. 播放生日快乐的实验代码1：** 
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32Tone”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32Tone”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -842,7 +833,7 @@ void birthday()
 
 做个音乐盒，通过按键来切换曲子。
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32Tone”和“ESP32_music_lib_home”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32Tone”和“ESP32_music_lib_home”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -971,7 +962,7 @@ void loop() {
 
 **1.5. 控制门来回转动的实验代码1：** 
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32Servo”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32Servo”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -1016,7 +1007,7 @@ void loop() {
 
 **雨滴传感器：** 这是个模拟输入传感器，水分覆盖到检测面上的面积越大，返回的值越大（范围0~4096）
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32Servo”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32Servo”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -1093,7 +1084,7 @@ void loop() {
 
 控制SK6812显示各种灯效
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“Adafruit_NeoPixel-master”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“Adafruit_NeoPixel-master”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -1222,7 +1213,7 @@ void theaterChaseRainbow(int wait) {
 
 两个按钮，左右切换氛围灯的颜色。
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“Adafruit_NeoPixel-master”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“Adafruit_NeoPixel-master”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -1392,7 +1383,7 @@ void colorWipe(uint32_t color, int wait) {
 
 控制风扇的正反转和速度。
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32_AnalogWrite”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32_AnalogWrite”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -1435,7 +1426,7 @@ void loop() {
 
 一台简易的风扇，通过一个按钮开关风扇，另一个按钮控制风扇的速度。
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32_AnalogWrite”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“ESP32_AnalogWrite”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -1572,7 +1563,7 @@ I2C 1602 LCD模块的控制引脚：
 
 **1.5. 屏幕显示字符串的实验代码：** 
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”和“Wire”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”和“Wire”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -1669,7 +1660,7 @@ MQ-2气体传感器，无源蜂鸣器和I2C 1602 LCD模块的控制引脚：
 
 **1.5. 实验代码：** 
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”和“Wire”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”和“Wire”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -1794,7 +1785,7 @@ XHT11温湿度传感器和I2C 1602 LCD模块的控制引脚：
 
 **1.5. 实验代码：** 
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”, “xht11” 和 “Wire”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”, “xht11” 和 “Wire”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -1919,7 +1910,7 @@ RFID-RC522模块，木板房子⑦处按键1，门舵机和I2C 1602 LCD模块的
 
 <span style="color: rgb(255, 76, 65);">特别注意：</span>对于不同的RFID-RC522的白磁卡和蓝色钥匙扣，其白磁卡值和蓝色钥匙扣的值可能都不一样。所以，当使用你自己的白磁卡片靠近RFID模块的感应区域时，你需要将你在串口监视器窗口中读取的值更换程序中的值。![](media/2573bebfe6dae2cfae8cc6bd7eef936d.png)
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”，“ESP32Servo”和“MFRC522_I2C”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”，“ESP32Servo”和“MFRC522_I2C”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*  
@@ -2072,7 +2063,7 @@ void ShowReaderDetails() {
 
 还使用到了一个很好用的按钮库文件OneButton，非常简单的实现按钮的点击、双击、长按等功能。对应摩斯密码，点击为“.”，长按再松开为“-”。(“.”的意思是点击按钮，“-”的意思是长按按钮2秒以上)
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”，“ESP32Servo”和“OneButton-master”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”，“ESP32Servo”和“OneButton-master”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 
 ```c
@@ -2311,7 +2302,7 @@ void loop() {
 
 ![](media/12bde88b91fc863585343bca76b0daa6.png)
 
-<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”和“ESP32_AnalogWrite”，添加方法请点击链接 **[添加Arduino库文件](https://docs.keyestudio.com/projects/KS5020/en/latest/docs/Arduino_C_Tutorial.html#arduino)** 查看。如果已经添加好了，就跳过。
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”和“ESP32_AnalogWrite”，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*
@@ -2484,6 +2475,9 @@ void loop() {
 
 使用APP控制智能家居的LED灯和风扇的开关。
 
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加对应的库文件，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
+
+
 ```c
 /*
   Keyes
@@ -2614,6 +2608,8 @@ void loop() {
     ![](media/426c73480e4513751bf99667b3ea7e58.png)
 
 **1.7. IoT智能家居的实验代码2：** 
+
+<span style="color: rgb(255, 76, 65);">⚠️特别提醒</span>：使用前先添加对应的库文件，添加方法请点击链接： **[添加Arduino库文件](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7)** 查看。如果已经添加好了，就跳过。
 
 ```c
 /*

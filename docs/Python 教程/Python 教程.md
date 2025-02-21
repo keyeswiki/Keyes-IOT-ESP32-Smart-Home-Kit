@@ -145,15 +145,14 @@ B. 进入计算机主界面，选择“我的电脑”，单击“设备管理�
 
 **1\. 下载Micropython固件** 
 
-microPython官方网站：<http://micropython.org/>
+microPython官方网站：[http://micropython.org/](http://micropython.org/)
 
-网页列出microPython的ESP32固件：[<u>https://micropython.org/download/esp32/</u>](https://micropython.org/download/esp32/)
+网页列出microPython的ESP32固件：[https://micropython.org/download/esp32/](https://micropython.org/download/esp32/)
 
 ![](media/c706d3cd6862323dcfccfd11ec7d1da3.png)
 
 本教程中使用的固件是：esp32-20210902-v1.17.bin
 
-请按以下链接直接下载固件：[https://micropython.org/resources/firmware/esp32-20210902-v1.17.bin](https://micropython.org/resources/firmware/esp32-20220117-v1.18.bin)
 
 我们的文件夹中也提供了这个固件，位置如下图：
 

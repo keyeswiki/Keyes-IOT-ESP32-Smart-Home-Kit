@@ -108,7 +108,7 @@
 
 **方法一：Arduino 代码**
 
-<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装Arduino IDE，请进入链接：[关于Arduino IDE](https://docs.keyestudio.com/projects/KS5002/en/latest/docs/Arduino_C%20Tutorial/Arduino_C_Tutorial.html#about-arduino-ide)
+<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装Arduino IDE，请进入链接：[关于Arduino IDE](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#arduino-ide)
 
 ```c++
 #include <ESP32_Servo.h>
@@ -140,7 +140,7 @@ void loop() {
 
 **方法二：Python 代码**
 
-<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装 Thonny IDE，请进入链接：[关于Thonny IDE](https://docs.keyestudio.com/projects/KS5002/en/latest/docs/Arduino_C%20Tutorial/Arduino_C_Tutorial.html#about-arduino-ide)
+<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装 Thonny IDE，请进入链接：[关于Thonny IDE](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Python%20%E6%95%99%E7%A8%8B/Python%20%E6%95%99%E7%A8%8B.html#thonny-ide)
 
 ```python
 # 作者 : www.keyes-robot.com
@@ -181,7 +181,7 @@ time.sleep(1)
 
 **方法三：Mixly 代码**
 
-<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装 Mixly IDE，请进入链接：[关于Mixly IDE](https://docs.keyestudio.com/projects/KS5002/en/latest/docs/Arduino_C%20Tutorial/Arduino_C_Tutorial.html#about-arduino-ide)
+<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装 Mixly IDE，请进入链接：[关于Mixly IDE](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Mixly%20%E6%95%99%E7%A8%8B/Mixly%20%E6%95%99%E7%A8%8B.html#mixly-ide)
 
 ![Img](./media/img-20250220091002.png)
 
@@ -195,7 +195,7 @@ time.sleep(1)
 
 **方法四：KidsBlock(Scratch) 代码**
 
-<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装 KidsBlock IDE，请进入链接：[关于KidsBlock IDE](https://docs.keyestudio.com/projects/KS5002/en/latest/docs/Arduino_C%20Tutorial/Arduino_C_Tutorial.html#about-arduino-ide)
+<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装 KidsBlock IDE，请进入链接：[关于KidsBlock IDE](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Scratch%20%E6%95%99%E7%A8%8B/Scratch%20%E6%95%99%E7%A8%8B.html#kidsblock-ide)
 
 ![Img](./media/img-20250220091934.png)
 

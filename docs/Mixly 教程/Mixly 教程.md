@@ -334,7 +334,7 @@ LED，即发光二极管的简称。由含镓（Ga）、砷（As）、磷（P）
 
 ![](media/ac030be4a5240e6aefcd284377872d1f.png)
 
-怎么上传代码，请参考链接：[Mixly软件的使用方法](https://url/)
+怎么上传代码，请参考链接：[Mixly软件的使用方法](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Mixly%20%E6%95%99%E7%A8%8B/Mixly%20%E6%95%99%E7%A8%8B.html#id2)
 
 **1.6. 实验结果：**
 
