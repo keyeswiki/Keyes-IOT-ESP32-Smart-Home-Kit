@@ -11,7 +11,7 @@ Mixly 教程
 
 **下载软件：**
 
-读者可以在米思齐(Mixly)网站 https://mixly.org/bnu-maker/mixl2.0rc
+读者可以在米思齐(Mixly)网站 https://mixly.cn/bnu-maker/mixl2.0rc
 下载Mixly开发环境，网站页面如下图所示：
 
 |Img|
