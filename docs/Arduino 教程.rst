@@ -11,7 +11,7 @@
 \ **⚠️特别提示:**
 请先下载本教程需要用到的Arduino资料(包含：Arduino代码、取模软件和库文件）和Android_APP等，保存至您方便使用的路径下。
 
-**下载：** :download:`Arduino资料 <./Arduino资料.7z>` 和 :download:`Android_APP <./Android_APP.7z>`__
+**下载：** :download:`Arduino资料 <./Arduino资料.7z>` 和 :download:`Android_APP <./Android_APP.7z>`
 
 .. _62-arduino-ide开发环境设置:
 
