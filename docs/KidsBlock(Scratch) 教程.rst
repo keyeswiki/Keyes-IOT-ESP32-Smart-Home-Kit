@@ -1,11 +1,11 @@
-.. _7-kidsblockscratch-教程:
+.. _8-kidsblockscratch-教程:
 
-7. KidsBlock(Scratch) 教程
+8. KidsBlock(Scratch) 教程
 ==========================
 
-.. _71-kidsblockscratch-资料下载:
+.. _81-kidsblockscratch-资料下载:
 
-7.1. KidsBlock(Scratch) 资料下载
+8.1. KidsBlock(Scratch) 资料下载
 --------------------------------
 
 \ **⚠️特别提示:**
@@ -14,22 +14,22 @@ Android_APP 等，保存至您方便使用的路径下。
 
 **下载：** :download:`KidsBlock(Scratch)资料 <./KidsBlock(Scratch)资料.7z>` 和 :download:`Android_APP <./Android_APP.7z>`
 
-.. _72-kidsblock-ide开发环境设置:
+.. _82-kidsblock-ide开发环境设置:
 
-7.2. KidsBlock IDE开发环境设置
+8.2. KidsBlock IDE开发环境设置
 ------------------------------
 
-.. _721-下载和安装-kidsblock-ide:
+.. _821-下载和安装-kidsblock-ide:
 
-7.2.1. 下载和安装 KidsBlock IDE
+8.2.1. 下载和安装 KidsBlock IDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - 如何下载、安装及使用 KidsBlock IDE
   的参考链接：\ https://www.keyesrobot.cn/projects/KidsBlock/zh-cn/latest/
 
-.. _722-选择设备:
+.. _822-选择设备:
 
-7.2.2. 选择设备
+8.2.2. 选择设备
 ~~~~~~~~~~~~~~~
 
 （1）驱动安装完后，点击\ |image1|\ 进入主控板页面，可以选择需要添加的设备（控制板），本项目需要选择SmarthomeESP32。先点击SmarthomeESP32所处区域，后点击“连接”。这样SmarthomeESP32已连接上，点击“返回编辑器”回到编码编辑器。这样，我们会发现\ |image2|\ 变成\ |image3|\ ，同时\ |image4|\ 变成\ |image5|\ ，说明SmarthomeESP32和端口（COM）都已经连接上了。
@@ -68,9 +68,9 @@ Android_APP 等，保存至您方便使用的路径下。
 
 |image25|
 
-.. _723-启动你的第一个程序:
+.. _823-启动你的第一个程序:
 
-7.2.3. 启动你的第一个程序
+8.2.3. 启动你的第一个程序
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. 可以直接打开我们编写好的程序：点击文件下的从电脑中上传，然后找到目录下的\ |image26|\ 程序并打开
@@ -92,9 +92,9 @@ Android_APP 等，保存至您方便使用的路径下。
 
 |image29|
 
-.. _73-项目教程:
+.. _83-项目教程:
 
-7.3. 项目教程
+8.3. 项目教程
 -------------
 
 ⚠️

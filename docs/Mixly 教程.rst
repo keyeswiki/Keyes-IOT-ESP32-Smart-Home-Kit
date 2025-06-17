@@ -1,11 +1,11 @@
-.. _8-mixly-教程:
+.. _9-mixly-教程:
 
-8. Mixly 教程
+9. Mixly 教程
 =============
 
-.. _81-mixly-资料下载:
+.. _91-mixly-资料下载:
 
-8.1. Mixly 资料下载
+9.1. Mixly 资料下载
 -------------------
 
 \ **⚠️特别提示:** 请先下载本教程需要用到的Mixly资料(包含：
@@ -13,14 +13,14 @@ Mixly代码和库文件等）和 Android_APP 等，保存至您方便使用的�
 
 **下载：** :download:`Mixly资料 <./Mixly资料.7z>` 和 :download:`Android_APP <./Android_APP.7z>`
 
-.. _82-mixly-ide-开发环境设置:
+.. _92-mixly-ide-开发环境设置:
 
-8.2. Mixly IDE 开发环境设置
+9.2. Mixly IDE 开发环境设置
 ---------------------------
 
-.. _821-mixly-ide下载安装:
+.. _921-mixly-ide下载安装:
 
-8.2.1. Mixly IDE下载、安装
+9.2.1. Mixly IDE下载、安装
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **下载软件：**
@@ -54,9 +54,9 @@ Mixly For Linux(根据系统选择)：
 
 |image4|
 
-.. _822-mixly-ide安装及页面介绍:
+.. _922-mixly-ide安装及页面介绍:
 
-8.2.2. Mixly IDE安装及页面介绍
+9.2.2. Mixly IDE安装及页面介绍
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Windows版本安装**
@@ -143,9 +143,9 @@ https://www.bilibili.com/video/BV1YE411A7FT
 
 https://wiki.mixly.org/
 
-.. _823-mixly-ide的使用方法:
+.. _923-mixly-ide的使用方法:
 
-8.2.3. Mixly IDE的使用方法：
+9.2.3. Mixly IDE的使用方法：
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 接下来，我们将以ESP32 Plus控制板控制黄色LED亮灭为例：
@@ -197,9 +197,9 @@ Blinking”（此示例代码存放的路径：\ **..\\Mixly资料\\Mixly_代码
 
 |image29|
 
-.. _83-添加mixly库文件:
+.. _93-添加mixly库文件:
 
-8.3. 添加Mixly库文件
+9.3. 添加Mixly库文件
 --------------------
 
 （以下是以Windows系统为例，MacOS系统可以参考）
@@ -226,9 +226,9 @@ ESP32 智能家居。你也可以双击以打开库文件Keyes ESP32
 
 |image35|
 
-.. _84-项目教程:
+.. _94-项目教程:
 
-8.4. 项目教程
+9.4. 项目教程
 -------------
 
 ⚠️
