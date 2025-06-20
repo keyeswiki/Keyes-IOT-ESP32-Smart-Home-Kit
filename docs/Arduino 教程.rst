@@ -11,7 +11,8 @@
 \ **⚠️特别提示:**
 请先下载本教程需要用到的Arduino资料(包含：Arduino代码、取模软件和库文件）和Android_APP等，保存至您方便使用的路径下。
 
-**下载：** :download:`Arduino资料 <./Arduino资料.7z>` 和 :download:`Android_APP <./Android_APP.7z>`
+**下载：** :download:`Arduino资料 <./Arduino资料.7z>` 和
+:download:`Android_APP <./Android_APP.7z>`
 
 .. _72-arduino-ide开发环境设置:
 
@@ -480,7 +481,7 @@ ESP32 Plus主板 \* 1 黄色LED模块*1 3P 转杜邦线母*1 USB线*1
 **1.6. 实验代码：**
 
 ⚠️特别提醒：使用前先添加库文件“ESP32_AnalogWrite”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -838,7 +839,7 @@ ESP32 Plus主板 \* 1 无源蜂鸣器模块*1 按键*1    3P 转杜邦线母*2 U
 **1.6. 播放生日快乐的实验代码1：**
 
 ⚠️特别提醒：使用前先添加库文件“ESP32Tone”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -896,7 +897,7 @@ ESP32 Plus主板 \* 1 无源蜂鸣器模块*1 按键*1    3P 转杜邦线母*2 U
 做个音乐盒，通过按键来切换曲子。
 
 ⚠️特别提醒：使用前先添加库文件“ESP32Tone”和“ESP32_music_lib_home”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -1039,7 +1040,7 @@ ESP32 Plus主板 \* 1 无源蜂鸣器模块*1 按键*1    3P 转杜邦线母*2 U
 **1.5. 控制门来回转动的实验代码1：**
 
 ⚠️特别提醒：使用前先添加库文件“ESP32Servo”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -1087,7 +1088,7 @@ ESP32 Plus主板 \* 1 无源蜂鸣器模块*1 按键*1    3P 转杜邦线母*2 U
 这是个模拟输入传感器，水分覆盖到检测面上的面积越大，返回的值越大（范围0~4096）
 
 ⚠️特别提醒：使用前先添加库文件“ESP32Servo”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -1174,7 +1175,7 @@ SK6812RGB灯（S引脚） io26
 控制SK6812显示各种灯效
 
 ⚠️特别提醒：使用前先添加库文件“Adafruit_NeoPixel-master”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -1305,7 +1306,7 @@ SK6812RGB灯（S引脚） io26
 两个按钮，左右切换氛围灯的颜色。
 
 ⚠️特别提醒：使用前先添加库文件“Adafruit_NeoPixel-master”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -1486,7 +1487,7 @@ ESP32 Plus主板 \* 1 按键*2          130电机模块*1 风扇叶*1
 控制风扇的正反转和速度。
 
 ⚠️特别提醒：使用前先添加库文件“ESP32_AnalogWrite”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -1531,7 +1532,7 @@ ESP32 Plus主板 \* 1 按键*2          130电机模块*1 风扇叶*1
 一台简易的风扇，通过一个按钮开关风扇，另一个按钮控制风扇的速度。
 
 ⚠️特别提醒：使用前先添加库文件“ESP32_AnalogWrite”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -1687,7 +1688,7 @@ I2C 1602 LCD模块的SDA引脚 SDA
 **1.5. 屏幕显示字符串的实验代码：**
 
 ⚠️特别提醒：使用前先添加库文件“LiquidCrystal_I2C”和“Wire”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -1799,7 +1800,7 @@ I2C 1602 LCD模块的SDA引脚 SDA
 **1.5. 实验代码：**
 
 ⚠️特别提醒：使用前先添加库文件“LiquidCrystal_I2C”和“Wire”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -1943,8 +1944,7 @@ I2C 1602 LCD模块的SDA引脚  SDA
 **1.5. 实验代码：**
 
 ⚠️特别提醒：使用前先添加库文件“LiquidCrystal_I2C” 和
-“xht11”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+“xht11”，添加方法请点击链接：\ `添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -2087,7 +2087,7 @@ I2C 1602 LCD模块的SDA引脚 SDA
 特别注意：对于不同的RFID-RC522的白磁卡和蓝色钥匙扣，其白磁卡值和蓝色钥匙扣的值可能都不一样。所以，当使用你自己的白磁卡片靠近RFID模块的感应区域时，你需要将你在串口监视器窗口中读取的值更换程序中的值。\ |image164|
 
 ⚠️特别提醒：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”，“ESP32Servo”和“MFRC522_I2C”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -2246,8 +2246,7 @@ I2C 1602 LCD模块的SDA引脚 SDA
 
 还使用到了一个很好用的按钮库文件OneButton，非常简单的实现按钮的点击、双击、长按等功能。对应摩斯密码，点击为“.”，长按再松开为“-”。(“.”的意思是点击按钮，“-”的意思是长按按钮2秒以上)
 
-⚠️特别提醒：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”，“ESP32Servo”和“OneButton-master”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+⚠️特别提醒：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”，“ESP32Servo”和“OneButton-master”，添加方法请点击链接：\ `添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -2522,8 +2521,7 @@ WiFi
 
 ⚠️ **注意：WiFi必须是2.4Ghz频率的，否则ESP32无法连接WiFi**\ 。
 
-⚠️\ **特别提醒**\ ：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”和“ESP32_AnalogWrite”，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+⚠️\ **特别提醒**\ ：使用前先添加库文件“LiquidCrystal_I2C”，“Wire”和“ESP32_AnalogWrite”，添加方法请点击链接：\ `添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -2732,8 +2730,7 @@ WiFi
 
 ⚠️ **注意：WiFi必须是2.4Ghz频率的，否则ESP32无法连接WiFi**\ 。
 
-⚠️特别提醒：使用前先添加对应的库文件，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+⚠️特别提醒：使用前先添加对应的库文件，添加方法请点击链接：\ `添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c
@@ -2899,8 +2896,7 @@ WiFi
 
 ⚠️ **注意：WiFi必须是2.4Ghz频率的，否则ESP32无法连接WiFi**\ 。
 
-⚠️特别提醒：使用前先添加对应的库文件，添加方法请点击链接：
-`添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#id7>`__
+⚠️特别提醒：使用前先添加对应的库文件，添加方法请点击链接：\ `添加Arduino库文件 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#id19>`__
 查看。如果已经添加好了，就跳过。
 
 .. code:: c

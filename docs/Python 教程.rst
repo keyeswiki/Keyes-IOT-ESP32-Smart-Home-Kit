@@ -13,7 +13,8 @@
 Android_APP 等，保存至您方便使用的路径下。这里是以保存在 **D盘**
 路径下为例。
 
-**下载：** :download:`Python资料 <./Python资料.7z>` 和 :download:`Android_APP <./Android_APP.7z>`
+**下载：** :download:`Python资料 <./Python资料.7z>` 和
+:download:`Android_APP <./Android_APP.7z>`
 
 .. _102-thonny-ide开发环境设置:
 
@@ -22,10 +23,10 @@ Android_APP 等，保存至您方便使用的路径下。这里是以保存在 *
 
 在开始构建项目之前，你需要首先做一些准备，这是非常重要的，你不能跳过。
 
-.. _1021-安装thonny重要:
+.. _1021-下载安装thonny-ide重要:
 
-10.2.1. 安装Thonny(重要)
-~~~~~~~~~~~~~~~~~~~~~~~~
+10.2.1. 下载安装Thonny IDE(重要)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Thonny是一个免费、开源的软件平台，体积小，界面简单，操作简单，功能丰富，是一个适合初学者的Python
 IDE。在本教程中，我们使用这个IDE在整个过程中开发ESP32。Thonny支持多种操作系统，包括Windows,
@@ -37,20 +38,6 @@ Mac OS, Linux。
 版本的，如果是其他的版本的话，可能会导致提供的示例代码运行不成功。**
 
 (1)进入软件官网：\ `\  <https://thonny.org>`__\ `https://thonny.org\  <https://thonny.org>`__\ 下载Thonny软件，最好下载最新版的，否则可能不支持ESP32.
-
-(2)Thonny的开源代码库：\ `\  <https://github.com/thonny/thonny>`__\ `https://github.com/thonny/thonny\  <https://github.com/thonny/thonny>`__
-
-请按照官网的指导安装或点击下面的链接下载安装。(请根据您的操作系统选择相应的选项.)
-
-+-----------+---------------------------------------------------------+
-| 操作系统  | 下载链接/方法                                           |
-+===========+=========================================================+
-| MAC OS：  | \ https://github.com/th                                 |
-|           | onny/thonny/releases/download/v3.2.7/thonny-3.2.7.pkg\  |
-+-----------+---------------------------------------------------------+
-| Windows： | \ https://github.com/th                                 |
-|           | onny/thonny/releases/download/v3.2.7/thonny-3.2.7.exe\  |
-+-----------+---------------------------------------------------------+
 
 |image1|
 

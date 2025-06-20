@@ -11,7 +11,8 @@
 \ **⚠️特别提示:** 请先下载本教程需要用到的Mixly资料(包含：
 Mixly代码和库文件等）和 Android_APP 等，保存至您方便使用的路径下。
 
-**下载：** :download:`Mixly资料 <./Mixly资料.7z>` 和 :download:`Android_APP <./Android_APP.7z>`
+**下载：** :download:`Mixly资料 <./Mixly资料.7z>` 和
+:download:`Android_APP <./Android_APP.7z>`
 
 .. _92-mixly-ide-开发环境设置:
 
@@ -50,10 +51,6 @@ Mixly For Linux(根据系统选择)：
 
 |image3|
 
-还提供有Linux安装Mixly2.0.txt的文本，安装时可以参考
-
-|image4|
-
 .. _922-mixly-ide安装及页面介绍:
 
 9.2.2. Mixly IDE安装及页面介绍
@@ -70,15 +67,17 @@ Mixly For Linux(根据系统选择)：
 
 因为Mixly是一个绿色免安装软件，所以“mixly2.0-win32-x64-rc4完整版”版本在解压之后就可以直接使用了。如果是下载“一键更新版.7z”版本的压缩包，压缩包解压后，需要左键双击打开“一键更新.bat”按照提示更新Mixly。
 
-**Mac版本安装：**
+|image4|
 
-提供有MAC安装Mixly2.0.txt的文本，安装时可以参考
+**MAC版本安装：**
+
+提供有MAC安装Mixly2.0.txt的文本，安装时可以参考里面的安装方法。
 
 |image5|
 
-**Mac版本安装：**
+**Linux版本安装：**
 
-提供有Linux安装Mixly2.0.txt的文本，安装时可以参考
+提供有Linux安装Mixly2.0.txt的文本，安装时可以参考里面的安装方法。
 
 |image6|
 
@@ -1277,6 +1276,8 @@ WiFi
 
 **1.2. APP下载：**
 
+⚠️ **特别提醒：如果前面已经下载安装了APP，则这一步骤可以直接跳过。**
+
 `安装APP及说明书 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/APP%E4%B8%8B%E8%BD%BD%E5%92%8C%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html>`__
 
 **1.3. 实验组件：**
@@ -1393,7 +1394,7 @@ D. IP地址连接上之后，单击APP界面上对应的按钮控制对应的传
 .. |image1| image:: ./media/img-20241225152233.png
 .. |image2| image:: ./media/img-20241225152249.png
 .. |image3| image:: ./media/img-20250613164054.png
-.. |image4| image:: ./media/img-20250613164814.png
+.. |image4| image:: ./media/img-20250618100945.png
 .. |image5| image:: ./media/img-20250613164733.png
 .. |image6| image:: ./media/img-20250613164814.png
 .. |image7| image:: ./media/img-20241225152423.png

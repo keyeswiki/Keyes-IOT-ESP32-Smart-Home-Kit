@@ -12,7 +12,8 @@
 请先下载本教程需要用到的KidsBlock(Scratch)资料(包含：KidsBlock(Scratch)_代码等）和
 Android_APP 等，保存至您方便使用的路径下。
 
-**下载：** :download:`KidsBlock(Scratch)资料 <./KidsBlock(Scratch)资料.7z>` 和 :download:`Android_APP <./Android_APP.7z>`
+**下载：** :download:`KidsBlock(Scratch)资料 <./KidsBlock(Scratch)资料.7z>` 和
+:download:`Android_APP <./Android_APP.7z>`
 
 .. _82-kidsblock-ide开发环境设置:
 
@@ -1078,6 +1079,8 @@ ESP32Plus主板*1 USB线*1
 |image193|
 
 **1.5. APP下载安装：**
+
+⚠️ **特别提醒：如果前面已经下载安装了APP，则这一步骤可以直接跳过。**
 
 `安装APP及说明书 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/APP%E4%B8%8B%E8%BD%BD%E5%92%8C%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.html>`__
 

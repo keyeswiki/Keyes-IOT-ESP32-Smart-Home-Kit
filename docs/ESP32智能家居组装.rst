@@ -3,7 +3,7 @@
 6. ESP32智能家居组装步骤
 ========================
 
-注意：这个套件的亚克力板使用时需要先撕去上面的保护膜。
+\ **注意：**\ 这个套件的亚克力板使用时需要先撕去上面的保护膜。
 
 |image1|
 
@@ -97,7 +97,7 @@
 
 |image20|
 
-\ **安装前需要调节舵机角度，我们需要将窗户的舵机调整到0度再安装**\ 
+⚠️ \ **安装前需要调节舵机角度，我们需要将窗户的舵机调整到0度再安装**\ 
 
 ====== ====
 舵机   主板
@@ -109,15 +109,18 @@
 
 |Img|
 
-请先下载调节窗户上舵机角度的代码：\ :download:`窗户上的舵机初始化角度_代码 <./窗户上的舵机初始化角度_代码.7z>`\ ，保存至您方便使用的路径下。
+⚠️
+请先下载调节窗户上舵机角度的代码：\ :download:`窗户上的舵机初始化角度_代码 <./窗户上的舵机初始化角度_代码.7z>` ，保存至您方便使用的路径下。
 
 |image21|
+
+⚠️ **特别提醒: 以下四种方法，根据自己的情况自由选择。**
 
 **方法一：Arduino 代码**
 
 \ **⚠️特别提示:** 在编写代码并上传之前，必须安装Arduino
 IDE，请进入链接：\ `Arduino
-IDE开发环境设置 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B/Arduino%20%E6%95%99%E7%A8%8B.html#arduino-ide>`__
+IDE开发环境设置 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#arduino-ide>`__
 
 .. code:: c++
 
@@ -171,7 +174,7 @@ IDE中。
 
 \ **⚠️特别提示:** 在编写代码并上传之前，必须安装 Thonny
 IDE，请进入链接：\ `Thonny
-IDE开发环境设置 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Python%20%E6%95%99%E7%A8%8B/Python%20%E6%95%99%E7%A8%8B.html#thonny-ide>`__
+IDE开发环境设置 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Python%20%E6%95%99%E7%A8%8B.html#thonny-ide>`__
 
 .. code:: python
 
@@ -218,7 +221,7 @@ IDE中。
 
 \ **⚠️特别提示:** 在编写代码并上传之前，必须安装 Mixly
 IDE，请进入链接：\ `Mixly
-IDE开发环境设置 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Mixly%20%E6%95%99%E7%A8%8B/Mixly%20%E6%95%99%E7%A8%8B.html#mixly-ide>`__
+IDE开发环境设置 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Mixly%20%E6%95%99%E7%A8%8B.html#mixly-ide>`__
 
 |image25|
 
@@ -237,7 +240,7 @@ IDE中直接拖动代码块编写上述测试代码。
 
 \ **⚠️特别提示:** 在编写代码并上传之前，必须安装 KidsBlock
 IDE，请进入链接：\ `KidsBlock
-IDE开发环境设置 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Scratch%20%E6%95%99%E7%A8%8B/Scratch%20%E6%95%99%E7%A8%8B.html#kidsblock-ide>`__
+IDE开发环境设置 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/KidsBlock%28Scratch%29%20%E6%95%99%E7%A8%8B.html#kidsblock-ide>`__
 
 |image27|
 
