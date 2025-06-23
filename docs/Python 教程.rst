@@ -37,7 +37,8 @@ Mac OS, Linux。
 ⚠️ **特别提醒：本套件使用的 Thonny IDE 是 3.3.13
 版本的，如果是其他的版本的话，可能会导致提供的示例代码运行不成功。**
 
-(1)进入软件官网：\ `\  <https://thonny.org>`__\ `https://thonny.org\  <https://thonny.org>`__\ 下载Thonny软件，最好下载最新版的，否则可能不支持ESP32.
+(1)进入软件官网：\ `\  <https://thonny.org>`__\ `https://thonny.org\  <https://thonny.org>`__
+下载Thonny软件，最好下载最新版的，否则可能不支持ESP32.
 
 |image1|
 
@@ -136,9 +137,9 @@ microPython官方网站：\ http://micropython.org/
 
 网页列出microPython的ESP32固件：\ https://micropython.org/download/esp32/
 
-|image23|
+本教程中使用的microPython-ESP32固件是：esp32-20210902-v1.17.bin
 
-本教程中使用的固件是：esp32-20210902-v1.17.bin
+|image23|
 
 我们的文件夹中也提供了这个固件，位置如下图：
 

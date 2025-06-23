@@ -26,7 +26,7 @@ Mixly代码和库文件等）和 Android_APP 等，保存至您方便使用的�
 
 **下载软件：**
 
-我们通过百度网盘分享：mixly2.0-2024 文件
+我们通过百度网盘分享：mixly2.0 文件
 
 \ **下载链接：**\ 
 https://pan.baidu.com/s/1sV0DUDKg7OiQcKyIkBI1Ew?pwd=keye
@@ -281,7 +281,9 @@ ESP32 Plus主板 \* 1 黄色LED模块*1 3P 转杜邦线母*1 USB线*1
 
 |image42|
 
-怎么上传代码，请参考链接：\ `Mixly软件的使用方法 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Mixly%20%E6%95%99%E7%A8%8B/Mixly%20%E6%95%99%E7%A8%8B.html#id2>`__
+怎么上传代码，请点击链接：\ `Mixly
+IDE的使用方法 <https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Mixly%20%E6%95%99%E7%A8%8B.html#id9>`__
+跳转到对应位置查看。
 
 **1.6. 实验结果：**
 

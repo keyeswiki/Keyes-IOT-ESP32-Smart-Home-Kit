@@ -267,7 +267,7 @@ E. 手机APP上各个按钮对应的控制字符
 .. |image11| image:: media/IOT-home1.png
 .. |image12| image:: media/IOT-home2.png
 .. |image13| image:: media/IOT-home3.png
-.. |image14| image:: media/APP0.png
+.. |image14| image:: ./media/APP0.png
 .. |image15| image:: ./media/APP2.jpg
 .. |image16| image:: media/WIFI-mode.png
 .. |image17| image:: media/connect.png
