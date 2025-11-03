@@ -1,22 +1,63 @@
 # 11. APP下载和使用说明
 
-## 1\. 安卓系统手机蓝牙APP（国内）：
+## 1\. APP下载安装：
 
-方法1：下载链接: [https://xiazai.keyesrobot.cn/APP/keyes%20IoT%20home.apk](https://xiazai.keyesrobot.cn/APP/keyes%20IoT%20home.apk) ，下载完后，使用USB数据线连接电脑的USB口和手机接线口，将 keyes iot home.apk 文件转移到手机上去再安装。
+**步骤1：** 在手机/平板浏览器的搜索框中输入官网链接： www.keyes-robot.com
 
-![Img](./media/img-202506201138590.png)
+![](media/wyx1.png)
 
-方法2：扫二维码下载（**注意：当我们扫码下载的时候需要使用手机浏览器的扫码功能扫码打开，使用微信扫码可能无效。** ）：
+**步骤2：** 找到 “**资料中心**”，并且点击它。
 
-![](media/QR-code.png)
+![](media/wyx2.png)
 
-方法3：对应文件夹里提供有 Android APP (keyes iot home.apk)，使用USB数据线连接电脑的USB口和手机接线口，将 keyes iot home.apk 文件转移到手机上去再安装。
+**步骤3：** 在页面找到 “**APP下载**”选项，并且点击它。
 
-![Img](./media/img-20250620113509.png)
+![](media/wyx3.png)
 
-![Img](./media/img-20250620113859.png)
+**步骤4：** 在 “**APP下载**”页面，找到“**keyes IoT home**”。
 
-下载安装后，单击![](media/IoT-home.jpeg) 打开，出现如下图界面。
+![](media/wyx4.png)
+
+**步骤5：** 根据自己的手机/平板系统选择对应的APP下载安装。选择如下：
+
+![](media/wyx7.png)
+
+**安卓系统**
+
+a\. 点击 "**点击下载**" 按钮，下载对应的 "**keyes IoT home.apk**" 文件。
+
+![](media/wyx5.png)
+
+b\. 按照安装提示进行安装。
+
+![](media/waxy11.jpg)
+
+![](media/wxyx11.jpg)
+
+c\. 下载安装后，单击![](media/IoT-home.jpeg) 打开，出现如下图界面。
+
+![](media/IOT-home1.png)
+
+选择WIFI。
+
+![](media/IOT-home2.png)
+
+![](media/IOT-home3.png)
+
+
+**苹果系统**
+
+a\. 点击 "**跳转APP Store**" 按钮，跳转到 APP Store 
+
+
+![](media/wyx6.png)
+
+
+b\. 在 APP Store 上搜索 **keyes IoT home** ，选择 **keyes IoT home** ，然后点击 ![](media/xiazai.png) 获取，下载安装APP即可。
+
+![](media/WASQ11.png)
+
+c\. 下载安装后, 单击![](media/IoT-home.jpeg) 打开，出现如下图界面。
 
 ![](media/IOT-home1.png)
 
@@ -26,25 +67,7 @@
 
 ![](media/IOT-home3.png)
 
-## 2\. 苹果系统手机（平板电脑）APP：
-
-打开 App Store。
-
-![](media/APP-Store.png)
-
-在 APP Store 上搜索 **keyes IoT home** ，点击 ![Img](./media/xiazai.png) 获取，下载安装APP即可。
-
-下载安装后, 单击![](media/IoT-home.jpeg) 打开，出现如下图界面。
-
-![](media/IOT-home1.png)
-
-选择WIFI
-
-![](media/IOT-home2.png)
-
-![](media/IOT-home3.png)
-
-## 3\. 实验代码：
+## 2. 实验代码：
 
 ⚠️ <span style="color: rgb(255, 76, 65);">**特别提醒：**</span>这里只提供Arduino C 代码，Mixly代码 和 KidsBlock(Scratch)代码等在对应的教程里有提供，请到对应教程中查看，是 **第14课 WiFi控制**。
 
@@ -146,7 +169,7 @@ void loop() {
 }
 ```
 
-## 4\. 实验结果：
+## 3. 实验结果：
 
 上传测试代码成功，上电后，手机需要和智能家居连接同一个WiFi，或者手机打开热点，智能家居连接手机的热点。单击串口监视器，打开串口监视器窗口，设置波特率为9600，串口监视器窗口打印分配到的IP地址。
 
@@ -185,7 +208,6 @@ E\. 手机APP上各个按钮对应的控制字符
 |按钮:![](media/sfx1.png)|控制字符：点一下发送 “o”； 再点一下发送“O”。|功能：点一下，RGB灯开启模式一氛围灯；再点一下，关闭RGB灯。|
 |按钮:![](media/sfx2.png)|控制字符：点一下发送 “p”； 再点一下发送“P”。|功能：点一下，RGB灯开启模式二跑马灯；再点一下，关闭RGB灯。|
 |按钮:![](media/rgb.png)|控制字符：点一下发送 “g”； 再点一下发送“G”。以此类推。|功能：点一下，RGB灯开启红色；再点一下，关闭RGB灯。以此类推。|
-
 
 
 

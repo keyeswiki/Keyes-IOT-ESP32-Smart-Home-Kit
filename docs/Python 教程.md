@@ -4,7 +4,7 @@
 
 <span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 请先下载本教程需要用到的Python资料资料(包含：Python代码、固件和库文件等）和 Android_APP 等，保存至您方便使用的路径下。这里是以保存在 **D盘** 路径下为例。
 
-**下载：**  [Python资料](./Python资料.7z) 和 [Android_APP](./Android_APP.7z)
+**下载：**  [Python资料](./Python资料.7z) 
 
 ## 10.2. Thonny IDE开发环境设置
 
