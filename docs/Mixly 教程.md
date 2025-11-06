@@ -2,7 +2,7 @@
 
 ## 9.1. Mixly 资料下载
 
-<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 请先下载本教程需要用到的Mixly资料(包含： Mixly代码和库文件等）和 Android_APP 等，保存至您方便使用的路径下。
+<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 请先下载本教程需要用到的Mixly资料(包含： Mixly代码和库文件等）等，保存至您方便使用的路径下。
 
 **下载：**  [Mixly资料](./Mixly资料.7z) 
 
