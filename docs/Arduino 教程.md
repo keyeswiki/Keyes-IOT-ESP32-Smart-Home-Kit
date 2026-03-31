@@ -607,91 +607,53 @@ void loop() {
 
 ```c
 /*  
- * 项目: music
- * 描述: 按键切换歌曲
+ * 项目: button_led
+ * 描述: 按键控制LED
  * 编译IDE：ARDUINO IDE
  * 作者: http//www.keyes-robot.com
 */
-#include <musicESP32_home.h>   
-music Music(25);  // 在GPIO25上初始化音乐播放器
-#define btn1 16    // 按钮引脚
+#define btn1 16
+#define led_y 12
 int btn_count = 0; // 按键计数器
-boolean music_flag = 0; // 触发音乐播放的标志
 
 void setup() 
 {
   Serial.begin(9600);
   pinMode(btn1, INPUT);
-  // 可供选择的音乐：
-  // Music.tetris();
-  // Music.birthday();
-  // Music.Ode_to_Joy();
-  // Music.christmas();
-  // Music.star_war_tone();
+  pinMode(led_y, OUTPUT);
 }
 
 void loop() 
 {
   boolean btn1_val = digitalRead(btn1);
-  
   if(btn1_val == 0) // 按下按钮
   {
     delay(10);  // 脱扣延迟10ms
-    
     if(btn1_val == 0) // 确认按钮仍按下
     {
       boolean btn_state = 1;
-      
-      while(btn_state == 1) // 等待按钮被释放
+      while(btn_state == 1) // 循环直到松开按钮
       {
         boolean btn_val = digitalRead(btn1);
-        
         if(btn_val == 1)  // 松开按钮
         {
-          music_flag = 1;
-          btn_count++;    // 增量按下按键计数器
+          btn_count++;    // 增量压计数器
           Serial.println(btn_count);
-          
-          // Cycle through 1-3 count
-          if(btn_count == 4)
-          {
-            btn_count = 1;
-          }
-          
-          // 根据播放次数播放不同的歌曲
-          switch(btn_count)
-          {
-            case 1: 
-              if(music_flag == 1)
-              {
-                Music.Ode_to_Joy();
-                music_flag=0;
-              } 
-              break;
-              
-            case 2: 
-              if(music_flag == 1)
-              {
-                Music.christmas();
-                music_flag=0;
-              } 
-              break;
-              
-            case 3: 
-              if(music_flag == 1)
-              {
-                Music.tetris();
-                music_flag=0;
-              } 
-              break;
-          }
-          
-          btn_state = 0;  // 退出等待循环
+          btn_state = 0;  // 退出循环
         }
       }
     }
+    boolean value = btn_count % 2; // 模运算（0或1）
+    if(value == 1)
+    {
+      digitalWrite(led_y, HIGH); // 打开LED
+    }
+    else
+    {
+      digitalWrite(led_y, LOW); // 关闭LED
+    }
   }
-} 
+}
 ```
 
 **1.8. 实验结果2：**
@@ -935,58 +897,87 @@ void birthday()
 做个音乐盒，通过按键来切换曲子。
 
 ```c
-/*
-  Keyes
-  music
-  www.keyes-robot.com
+/*  
+ * 项目: music
+ * 描述: 按键切换歌曲
+ * 编译IDE：ARDUINO IDE
+ * 作者: http//www.keyes-robot.com
 */
-
-#include <ESP32Tone.h>
 #include <musicESP32_home.h>   
-music Music(25);
-#define btn1 16
-int btn_count = 0; //用于计算点击按钮的次数
-boolean music_flag = 0;
+music Music(25);  // 在GPIO25上初始化音乐播放器
+#define btn1 16    // 按钮引脚
+int btn_count = 0; // 按键计数器
+boolean music_flag = 0; // 触发音乐播放的标志
 
-void setup() {
+void setup() 
+{
   Serial.begin(9600);
   pinMode(btn1, INPUT);
-  pinMode(25, OUTPUT);
-//  Music.tetris();
-//  Music.birthday();
-//  Music.Ode_to_Joy();
-//  Music.christmas();
-//  Music.super_mario();
-//  Music.star_war_tone();
+  // 可供选择的音乐：
+  // Music.tetris();
+  // Music.birthday();
+  // Music.Ode_to_Joy();
+  // Music.christmas();
+  // Music.star_war_tone();
 }
 
-void loop() {
+void loop() 
+{
   boolean btn1_val = digitalRead(btn1);
-  if(btn1_val == 0) //如果按钮被按下了
+  
+  if(btn1_val == 0) // 按下按钮
   {
-    delay(10);  //延时10ms，起到消除按钮抖动作用
-    if(btn1_val == 0) //再次确定按钮被按下了
+    delay(10);  // 脱扣延迟10ms
+    
+    if(btn1_val == 0) // 确认按钮仍按下
     {
       boolean btn_state = 1;
-      while(btn_state == 1) //无限循环，直到按钮被松开
+      
+      while(btn_state == 1) // 等待按钮被释放
       {
         boolean btn_val = digitalRead(btn1);
-        if(btn_val == 1)  //如果按钮被松开了
+        
+        if(btn_val == 1)  // 松开按钮
         {
           music_flag = 1;
-          btn_count++;    //自动加1，计算按钮被点击的次数
+          btn_count++;    // 增量按下按键计数器
           Serial.println(btn_count);
+          
+          // Cycle through 1-3 count
           if(btn_count == 4)
           {
             btn_count = 1;
           }
+          
+          // 根据播放次数播放不同的歌曲
           switch(btn_count)
           {
-            case 1: if(music_flag == 1){Music.Ode_to_Joy();music_flag=0;} break;
-            case 2: if(music_flag == 1){Music.christmas();music_flag=0;} break;
-            case 3: if(music_flag == 1){Music.tetris();music_flag=0;} break;
+            case 1: 
+              if(music_flag == 1)
+              {
+                Music.Ode_to_Joy();
+                music_flag=0;
+              } 
+              break;
+              
+            case 2: 
+              if(music_flag == 1)
+              {
+                Music.christmas();
+                music_flag=0;
+              } 
+              break;
+              
+            case 3: 
+              if(music_flag == 1)
+              {
+                Music.tetris();
+                music_flag=0;
+              } 
+              break;
           }
-          btn_state = 0;  //按钮松开了，退出循环
+          
+          btn_state = 0;  // 退出等待循环
         }
       }
     }
