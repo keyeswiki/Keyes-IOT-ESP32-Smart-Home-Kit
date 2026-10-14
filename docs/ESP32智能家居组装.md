@@ -94,143 +94,72 @@
 
 ![](media/99_1.png)
 
-⚠️ <span style="color: rgb(255, 76, 65);">**安装前需要调节舵机角度，我们需要将窗户的舵机调整到0度再安装**</span>
-
-|    舵机    |     主板     |
-| :---------: | :---------: |
-| 棕线  |      G      |
-|  红线   |     V      |
-| 橙黄线 | IO5 |
-
-![Img](./media/A7.png)
 
 
-⚠️ 请先下载调节窗户上舵机角度的代码：[窗户上的舵机初始化角度_代码](./窗户上的舵机初始化角度_代码.7z)，保存至您方便使用的路径下。
+⚠ <span style="color: rgb(255, 76, 65);">**特别注意：安装前需要调节舵机角度，我们需要将窗户的舵机调整到0度再安装。**。</span>
 
-![Img](./media/A7-1.png)
+舵机角度初始化
 
-⚠️ **特别提醒: 以下四种方法，根据自己的情况自由选择。**
+⚠ <span style="color: rgb(255, 76, 65);">**特别提醒：舵机已经安装到椴木板上，就不需要再把舵机拆下来，直接将舵机的线材连接到舵机控制模块上对应的引脚上即可**。</span>
 
-**方法一：Arduino 代码**
+**校准舵机所需额外零件**
 
-<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装Arduino IDE，请进入链接：[Arduino IDE开发环境设置](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Arduino%20%E6%95%99%E7%A8%8B.html#arduino-ide)
+![D1](media/D1.png)
 
-```c++
-/*
- * 文件名 : window_servo
- * 功能   : 初始化舵机的角度为0°
- * 编译IDE：ARDUINO IDE
- * 作者   : https://www.keyesrobot.cn/
-*/
+**接线图：**
 
-#include <ESP32Servo.h>
-Servo myservo;
-#define servoPin 5
+| 舵机 | 舵机控制模块 |
+| :--: | :----------: |
+| 棕线 |      G       |
+| 红线 |      V       |
+| 橙线 |      S       |
 
-void setup() {
-  myservo.attach(servoPin,500,2500);
-  myservo.write(0);
-  delay(300);
-  myservo.write(90);
-  delay(300);
-  myservo.write(0);
-  delay(300);
-}
+| 舵机控制模块 | ESP32主控板 |
+| :----------: | :---------: |
+|      5V      |     5V      |
+|      G       |     GND     |
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
 
-```
-如何得到它？
 
-资料提供了调整窗户舵机的代码，请打开并烧录到主板，如下图所示。在文件夹 **..\窗户上的舵机初始化角度_代码** ，打开文件**window_servo.ino**。或将上述测试代码复制粘贴到Arduino IDE中。
+![D2](media/D2.png)
 
-![Img](./media/A7-2.png)
+**手指按下这个舵机控制模块上的按钮，舵机就可以转到90°位置。**
 
-将上述测试代码上传至主板之后，未发现舵机转动，可以按下主板上的复位键。
+![D3](media/D3.png)
 
-**方法二：Python 代码**
+⚠ <span style="color: rgb(200, 70, 100);">**提醒：按照上面图示完成舵机角度的校准后，请将所接线拆除，无需保留。**</span>
 
-<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装 Thonny IDE，请进入链接：[Thonny IDE开发环境设置](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Python%20%E6%95%99%E7%A8%8B.html#thonny-ide)
-
-```python
-# 作者 : www.keyes-robot.com
-
-from machine import Pin, PWM
-import time
-pwm = PWM(Pin(5))  
-pwm.freq(50)
-
-'''
-与角度对应的占空比 
-0°----2.5%----25
-45°----5%----51.2
-90°----7.5%----77
-135°----10%----102.4
-180°----12.5%----128
-'''
-angle_0 = 25
-angle_90 = 77
-angle_180 = 128
-
-pwm.duty(angle_0)
-time.sleep(1)
-pwm.duty(angle_90)
-time.sleep(1)
-pwm.duty(angle_0)
-time.sleep(1)
-
-# while True:
-```
-如何得到它？
-
-资料提供了调整窗户舵机的代码，请打开并烧录到主板，如下图所示。在文件夹 **..\窗户上的舵机初始化角度_代码** ，打开文件**window_servo.py**。或将上述测试代码复制粘贴到Thonny IDE中。
-
-![Img](./media/A7-3.png)
-
-单击![Img](./media/WORK.png)运行上述测试代码，未发现舵机转动，可以按下主板上的复位键。
-
-**方法三：Mixly 代码**
-
-<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装 Mixly IDE，请进入链接：[Mixly IDE开发环境设置](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/Mixly%20%E6%95%99%E7%A8%8B.html#mixly-ide)
-
-![Img](./media/A7-4.png)
-
-如何得到它？
-
-资料提供了调整窗户舵机的代码，请打开并烧录到主板，如下图所示。在文件夹 **..\窗户上的舵机初始化角度_代码** ，使用 Mixly IDE 打开文件**window_servo.mix**。或在Mixly IDE中直接拖动代码块编写上述测试代码。
-
-![Img](./media/A7-5.png)
-
-上传上述测试代码，未发现舵机转动，可以按下主板上的复位键。
-
-**方法四：KidsBlock(Scratch) 代码**
-
-<span style="color: rgb(255, 76, 65);">**⚠️特别提示:** </span> 在编写代码并上传之前，必须安装 KidsBlock IDE，请进入链接：[KidsBlock IDE开发环境设置](https://www.keyesrobot.cn/projects/KE3050/zh-cn/latest/docs/KidsBlock%28Scratch%29%20%E6%95%99%E7%A8%8B.html#kidsblock-ide)
-
-![Img](./media/A7-6.png)
-
-如何得到它？
-
-资料提供了调整窗户舵机的代码，请打开并烧录到主板，如下图所示。在文件夹 **..\窗户上的舵机初始化角度_代码** ，使用 KidsBlock IDE 打开文件**window_servo.sb3**。或在KidsBlock IDE中直接拖动代码块编写上述测试代码。
-
-![Img](./media/A7-7.png)
-
-上传上述测试代码，未发现舵机转动，可以按下主板上的复位键。
 
 
 安装（需按照下图姿态安装）
 
-![](media/99_2.png)
+![](media/ABC1.png)
 
-<span style="background: rgb(255, 251, 0);">若使用为M1.4*6MM自攻螺丝时，如下图</span>
+⚠️ <span style="color: rgb(255, 76, 65);">**若使用 M1.4×6 自攻螺丝时，如下图所示**</span>
 
 ![](media/100.png)
 
+
+
+![](media/ABC2.png)
+
+⚠️ **<span style="color: rgb(255, 76, 65);">特别注意：</span>需按照下图姿态安装齿轮**
+
+
+
+![](media/ABC3.png)
+
+**检查：**
+
+(1) 亚克力板与舵机的齿轮结构是否有良好的接触和受力点。
+
+(2) 舵机的齿轮结构上的固定螺钉的尖端是否卡在舵机的塑料外壳上。如果是，请将固定螺钉稍微松开，以免其尖端接触舵机。
+
+![](media/ZnNc_35-1.png)
+
 完成
 
-![](media/99_3.png)
+![](media/99_3.jpg)
 
 **安装8**
 
